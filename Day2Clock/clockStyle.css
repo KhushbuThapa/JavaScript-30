@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body{
+	background-image:  url(https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+	color: white;
+	text-align: center;
+	align-content: center;
+	font: 62.5%/1.5  "Lucida Grande", "Lucida Sans", Tahoma, Verdana, sans-serif; 
+}
+
+.clock{
+	width: 30rem;
+	height: 30rem;
+	border:10px solid white;
+	border-radius: 50%;
+	margin: 50px auto;
+	padding: 2rem;
+
+
+}
+.clock-face{
+	position: relative;
+	width: 100%;
+	height: 100%;
+
+}
+
+.hand{
+	width: 50%;
+	height: 6px;
+	background-color: black;
+	position: absolute;
+	top:50%;
+	transform-origin: 100%;
+	transition: all 0.05s;
+	transform: rotate(90deg);
+	transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+
+}
+
+.notransition{
+	-webkit-transition: none !important;
+	-moz-transition: none !important;
+	-o-transition: none !important;
+	transition: none !important;
+}
