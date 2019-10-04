@@ -1,0 +1,67 @@
+/*css variables*/
+
+:root{
+	--base: #ffc600;
+	--spacing: 10px;
+	--blur: 10px;
+}
+
+img{
+	width: 100%;
+	padding: var(--spacing);
+	background-color: var(--base);
+	filter: blur(var(--blur));
+
+}
+.hl{
+	color: var(--base);
+}
+
+/*Other styleing*/
+
+*{
+	margin: 0px; 
+	padding: 0px;
+	color: white;
+}
+
+body{
+	background-color: #050A30;
+	align-content: center;
+	text-align: center;
+	font-family: 'Be Vietnam', sans-serif;
+
+}
+
+
+.row{
+	display: flex;
+	justify-content: center
+}
+.image{
+	/*background-color: white;*/
+	width: 60%;
+	height: 50%;
+	margin: 5% 0%;
+	
+}
+
+
+.controls{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 5%;
+	width: 60%;
+
+}
+
+label{
+	margin:0% 10%;
+}
+
+.controllers{
+	display: flex;
+	justify-content: center;
+	margin: 0% 2%;
+}
